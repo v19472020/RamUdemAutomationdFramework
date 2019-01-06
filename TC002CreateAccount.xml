@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.test.customListener.Listener"/>
+<listener class-name="com.test.customListener.ExtentReporterNG"/>
+</listeners>
+<parameter name="Firstname" value="Sohail"></parameter>
+<parameter name="Lastname" value="Malik"></parameter>
+<parameter name="Email" value="sohail.malik@gmail.com"></parameter>
+<parameter name="password" value="pass@1234"></parameter>
+<parameter name="confirmpassword" value="pass@1234"></parameter>
+  <test thread-count="5" name="Test">
+  <classes>
+  <class name="com.test.RegisterPage.TC002_CreateAccount"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

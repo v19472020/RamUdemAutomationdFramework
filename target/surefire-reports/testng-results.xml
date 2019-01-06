@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.test.RegisterPage.CopyandPasteTest" duration-ms="136772" started-at="2018-11-10T07:49:00Z" finished-at="2018-11-10T07:51:17Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="136772" started-at="2018-11-10T07:49:00Z" finished-at="2018-11-10T07:51:17Z">
+      <class name="com.test.RegisterPage.CopyandPasteTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.RegisterPage.CopyandPasteTest@4c70fda8]" name="setup" is-config="true" duration-ms="89819" started-at="2018-11-10T07:49:00Z" finished-at="2018-11-10T07:50:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTest()[pri:0, instance:com.test.RegisterPage.CopyandPasteTest@4c70fda8]" name="verifyTest" duration-ms="43447" started-at="2018-11-10T07:50:30Z" finished-at="2018-11-10T07:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.RegisterPage.CopyandPasteTest@4c70fda8]" name="endTest" is-config="true" duration-ms="2901" started-at="2018-11-10T07:51:14Z" finished-at="2018-11-10T07:51:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.RegisterPage.CopyandPasteTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.test.RegisterPage.CopyandPasteTest -->
+</testng-results>

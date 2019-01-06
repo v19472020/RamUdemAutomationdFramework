@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+<listeners>
+<listener class-name="com.test.customListener.Listener"/>
+<listener class-name="com.test.customListener.ExtentReporterNG"/>
+</listeners>
+<parameter name="eamil" value="ramesh.korla1@hotmails.com"></parameter>
+<parameter name="FirstName" value="Ramesh"></parameter>
+<parameter name="LastName" value="korla"></parameter>
+<parameter name="pswd" value="pass123"></parameter>
+<parameter name="Date" value="23"></parameter>
+<parameter name="Month" value="9"></parameter>
+<parameter name="Year" value="1983"></parameter>
+<parameter name="FirstName1" value="Ramesh"></parameter>
+<parameter name="LastName1" value="Naidu"></parameter>
+<parameter name="Company" value="Udemy"></parameter>
+<parameter name="Address1" value="N Hamilton St, 103"></parameter>
+<parameter name="Address2" value="Wisconsin"></parameter>
+<parameter name="City" value="Madison"></parameter>
+<parameter name="States" value="Wisconsin"></parameter>
+<parameter name="PostCode" value="53703"></parameter>
+<parameter name="Mobile_No" value="8555012510"></parameter>
+<parameter name="Alias" value="Address1"></parameter>
+
+  <test name="Test">
+    <classes>
+      <class name="com.test.homepage.TC004_CreateAccount"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

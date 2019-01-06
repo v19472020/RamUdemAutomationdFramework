@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[<a herf='C:\EclipseWorkSpace\AutomationFramework\src\main\java\com\test\screenshot\LoginTestramesh.korla@gmail.com 01_01_2019_08_40_17.png'><img src='C:\EclipseWorkSpace\AutomationFramework\src\main\java\com\test\screenshot\LoginTestramesh.korla@gmail.com 01_01_2019_08_40_17.png'height='100' Width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a herf='C:\EclipseWorkSpace\AutomationFramework\src\main\java\com\test\screenshot\LoginTestramesh@gmail.com 01_01_2019_08_40_23.png'><img src='C:\EclipseWorkSpace\AutomationFramework\src\main\java\com\test\screenshot\LoginTestramesh@gmail.com 01_01_2019_08_40_23.png'height='100' Width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a herf='C:\EclipseWorkSpace\AutomationFramework\src\main\java\com\test\screenshot\LoginTestkorla.ramesh@rediffmail.com 01_01_2019_08_40_28.png'><img src='C:\EclipseWorkSpace\AutomationFramework\src\main\java\com\test\screenshot\LoginTestkorla.ramesh@rediffmail.com 01_01_2019_08_40_28.png'height='100' Width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a herf='C:\EclipseWorkSpace\AutomationFramework\src\main\java\com\test\screenshot\LoginTestramesh.korla@gmail.com 01_01_2019_08_40_32.png'><img src='C:\EclipseWorkSpace\AutomationFramework\src\main\java\com\test\screenshot\LoginTestramesh.korla@gmail.com 01_01_2019_08_40_32.png'height='100' Width='100'/></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="97969" started-at="2019-01-01T15:08:59Z" finished-at="2019-01-01T15:10:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="97969" started-at="2019-01-01T15:08:59Z" finished-at="2019-01-01T15:10:37Z">
+      <class name="com.test.homepage.TC003_VerifyLoginWithDifferentRecords">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.homepage.TC003_VerifyLoginWithDifferentRecords@711f39f9]" name="setUp" is-config="true" duration-ms="52870" started-at="2019-01-01T15:08:59Z" finished-at="2019-01-01T15:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.homepage.TC003_VerifyLoginWithDifferentRecords@711f39f9]" name="LoginTest" duration-ms="13595" started-at="2019-01-01T15:10:06Z" data-provider="loginData" finished-at="2019-01-01T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramesh.korla@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a herf='C:\EclipseWorkSpace\AutomationFramework\src\main\java\com\test\screenshot\LoginTestramesh.korla@gmail.com 01_01_2019_08_40_17.png'><img src='C:\EclipseWorkSpace\AutomationFramework\src\main\java\com\test\screenshot\LoginTestramesh.korla@gmail.com 01_01_2019_08_40_17.png'height='100' Width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.homepage.TC003_VerifyLoginWithDifferentRecords@711f39f9]" name="LoginTest" duration-ms="4466" started-at="2019-01-01T15:10:20Z" data-provider="loginData" finished-at="2019-01-01T15:10:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a herf='C:\EclipseWorkSpace\AutomationFramework\src\main\java\com\test\screenshot\LoginTestramesh@gmail.com 01_01_2019_08_40_23.png'><img src='C:\EclipseWorkSpace\AutomationFramework\src\main\java\com\test\screenshot\LoginTestramesh@gmail.com 01_01_2019_08_40_23.png'height='100' Width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.homepage.TC003_VerifyLoginWithDifferentRecords@711f39f9]" name="LoginTest" duration-ms="4825" started-at="2019-01-01T15:10:24Z" data-provider="loginData" finished-at="2019-01-01T15:10:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[korla.ramesh@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a herf='C:\EclipseWorkSpace\AutomationFramework\src\main\java\com\test\screenshot\LoginTestkorla.ramesh@rediffmail.com 01_01_2019_08_40_28.png'><img src='C:\EclipseWorkSpace\AutomationFramework\src\main\java\com\test\screenshot\LoginTestkorla.ramesh@rediffmail.com 01_01_2019_08_40_28.png'height='100' Width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.homepage.TC003_VerifyLoginWithDifferentRecords@711f39f9]" name="LoginTest" duration-ms="4788" started-at="2019-01-01T15:10:29Z" data-provider="loginData" finished-at="2019-01-01T15:10:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramesh.korla@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a herf='C:\EclipseWorkSpace\AutomationFramework\src\main\java\com\test\screenshot\LoginTestramesh.korla@gmail.com 01_01_2019_08_40_32.png'><img src='C:\EclipseWorkSpace\AutomationFramework\src\main\java\com\test\screenshot\LoginTestramesh.korla@gmail.com 01_01_2019_08_40_32.png'height='100' Width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.homepage.TC003_VerifyLoginWithDifferentRecords@711f39f9]" name="endTest" is-config="true" duration-ms="3001" started-at="2019-01-01T15:10:34Z" finished-at="2019-01-01T15:10:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.homepage.TC003_VerifyLoginWithDifferentRecords -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Firstname" value="Sohail"/>
+  <parameter name="password" value="pass@1234"/>
+  <parameter name="Email" value="sohail.malik@gmail.com"/>
+  <parameter name="Lastname" value="Malik"/>
+  <parameter name="confirmpassword" value="pass@1234"/>
+  <listeners>
+    <listener class-name="com.test.customListener.Listener"/>
+    <listener class-name="com.test.customListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.test.RegisterPage.TC002_CreateAccount">
+        <methods>
+          <include name="verifyCreateAccount" invocation-numbers="0"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- com.test.RegisterPage.TC002_CreateAccount -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
